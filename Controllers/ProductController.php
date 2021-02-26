@@ -186,4 +186,17 @@ class ProductController extends Controller
     return $array;
   }
 
+  public function deleteProduct($id)
+  {
+    $array = ['error' => ''];
+
+    $product = Product::find($id);
+    if($product) {
+      $photo = Photo::where('id_product', $product['id'])->delete();
+      $product->delete();
+    }
+
+    return $array;
+  }
+
 }
