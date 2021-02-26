@@ -1,6 +1,6 @@
 # Sistema de classificados simples Backend Api.
 
-Laravel version = 8
+(Laravel version) = 8
 
 // Após iniciar um projeto Laravel, fazer as devidas configurações de banco de dados.
 
