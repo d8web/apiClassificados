@@ -4,7 +4,7 @@ Laravel version = 8
 
 // Após iniciar um projeto Laravel, fazer as devidas configurações de banco de dados.
 
-// Configurar JWT para Laravel 8.
+// Configurar JWT Auth para Laravel 8.
 
 // Copiar o arquivo Routes/api.php.
 
