@@ -19,6 +19,7 @@ class CreateAllTables extends Migration
       $table->string('email')->unique();
       $table->string('cpf')->unique();
       $table->string('password');
+      $table->string('phone');
       $table->string('avatar')->default('default.jpg');
     });
 
